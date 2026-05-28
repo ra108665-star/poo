@@ -1,0 +1,18 @@
+package org.example.ex20;
+
+public abstract  class Pessoa {
+    private String nome;
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " +nome;
+    }
+}
